@@ -76,3 +76,5 @@ Titles are matched against these patterns (first match wins):
 | `recreation`, `remuneration` | `recreation` |
 
 Anything else (concerts, graduations, etc.) is skipped unless `--all` is passed.
+
+<a href="https://www.buymeacoffee.com/jasonrussell" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>

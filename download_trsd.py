@@ -177,7 +177,7 @@ def transcribe_video(video_path: str, log_dir: str, date_str: str | None, abbr: 
         print(f"  Transcribing with whisper -> {out_path}")
         captured = os.path.join(tmp, "whisper_capture.txt")
         cmd_whisper = ["whisper", audio_path, "--model", model,
-                       "--output_dir", tmp, "--output_format", "srt", "--loglevel", "error"]
+                       "--output_dir", tmp, "--output_format", "srt"]
         if device:
             cmd_whisper += ["--device", device]
         else:
